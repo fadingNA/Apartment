@@ -9,6 +9,7 @@ export default function HeroBanner() {
             <Box position={'relative'}
                  minHeight={{base: '110vh', sm: '60vh'}}
                  backgroundImage={`url('./bg1.jpg')`}
+                 objectFit={'cover'}
                  backgroundPosition={'center'}
                  backgroundAttachment={'fixed'}>
                 <Box
