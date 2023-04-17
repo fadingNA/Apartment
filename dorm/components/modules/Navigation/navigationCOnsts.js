@@ -6,6 +6,10 @@ export const navigationLinks = [
     }, {
         title: 'Contact', link: '/contact'
     }, {
+        title: 'Search', link: '/search'
+
+    },
+    {
         title: '437 970 9817', link: 'tel 437-970-9817', icon: <HiPhoneArrowUpRight/>
     }
 ]
