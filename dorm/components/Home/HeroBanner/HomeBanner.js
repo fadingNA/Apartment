@@ -50,7 +50,7 @@ export default function HeroBanner() {
                             </Link>
                         </Box>
                         <Box width={{base: '100%', sm: 'auto'}} color={'whiteAlpha.900'}
-                             marginTOp={{base: '2rem', sm: '0'}}>
+                             marginTop={{base: '2rem', sm: '0'}}>
                             <HeroForm/>
                         </Box>
                     </Box>

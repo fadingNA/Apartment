@@ -9,10 +9,18 @@ export default function Home() {
         <>
 
             <HeroBanner/>
-            <PropertyCard/>
+
             <hr/>
-            <Form/>
+
 
         </>
     )
+}
+
+export async function getStaticProps() {
+    const {hits} = require('feature/data/properties.json');
+    return {
+        props: {properties: hits}
+    }
+
 }
