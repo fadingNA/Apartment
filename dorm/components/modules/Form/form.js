@@ -16,7 +16,7 @@ export default function Form() {
             <br/>
             <FormLabel>Last Name</FormLabel>
             <Input type={'lastName'}/>
-            <FormHelperText> We'll never share your confidential.</FormHelperText>
+            <FormHelperText> We will never share your confidential.</FormHelperText>
         </FormControl>
     </Box>
 
